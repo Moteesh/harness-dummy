@@ -1,0 +1,14 @@
+connector:
+  name: myhelm1
+  identifier: myhelm1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: HttpHelmRepo
+  spec:
+    helmRepoUrl: https://abc.de
+    auth:
+      type: UsernamePassword
+      spec:
+        username: abcd
+        passwordRef: abcdef
