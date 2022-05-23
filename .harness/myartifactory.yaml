@@ -1,0 +1,14 @@
+connector:
+  name: myartifactory
+  identifier: myartifactory
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Artifactory
+  spec:
+    artifactoryServerUrl: https://ab.bc
+    auth:
+      type: UsernamePassword
+      spec:
+        username: abcd
+        passwordRef: abcdef
