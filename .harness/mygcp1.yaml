@@ -1,0 +1,12 @@
+connector:
+  name: mygcp1
+  identifier: mygcp1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Gcp
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        secretKeyRef: farat
