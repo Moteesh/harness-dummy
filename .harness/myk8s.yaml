@@ -1,0 +1,12 @@
+connector:
+  name: myk8s
+  identifier: myk8s
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: K8sCluster
+  spec:
+    credential:
+      type: InheritFromDelegate
+    delegateSelectors:
+    - mytestdel
