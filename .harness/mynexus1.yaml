@@ -1,0 +1,15 @@
+connector:
+  name: mynexus1
+  identifier: mynexus1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Nexus
+  spec:
+    nexusServerUrl: https://abcd.er
+    version: 3.x
+    auth:
+      type: UsernamePassword
+      spec:
+        username: abcd
+        passwordRef: abcdef
