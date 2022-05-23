@@ -1,0 +1,13 @@
+connector:
+  name: aws1
+  identifier: aws1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Aws
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        accessKey: abcd
+        secretKeyRef: abcdef
