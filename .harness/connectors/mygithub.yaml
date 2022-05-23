@@ -1,0 +1,23 @@
+connector:
+  name: mygithub
+  identifier: mygithub
+  description: mygithub
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Github
+  spec:
+    url: https://github.com/moteesh
+    validationRepo: deepface
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: moteesh
+          tokenRef: gitcred
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: gitcred
+    executeOnDelegate: false
+    type: Account

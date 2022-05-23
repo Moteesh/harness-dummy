@@ -1,0 +1,20 @@
+connector:
+  name: mybit1
+  identifier: mybit1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Bitbucket
+  spec:
+    url: https://bitbucket.org/myacc1
+    validationRepo: testrepo1
+    authentication:
+      type: Http
+      spec:
+        type: UsernamePassword
+        spec:
+          username: abcd
+          passwordRef: abcdef
+    delegateSelectors:
+    - mytestdellp
+    type: Account
