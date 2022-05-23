@@ -1,7 +1,6 @@
 connector:
   name: aws1
   identifier: aws1
-  description:
   orgIdentifier: default
   projectIdentifier: myproject1
   type: Aws
