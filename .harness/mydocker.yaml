@@ -1,0 +1,15 @@
+connector:
+  name: mydocker
+  identifier: mydocker
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: https://hub.docker.com
+    providerType: DockerHub
+    auth:
+      type: UsernamePassword
+      spec:
+        username: abcd
+        passwordRef: abcdef
