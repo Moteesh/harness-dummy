@@ -1,0 +1,23 @@
+connector:
+  name: abcdd
+  identifier: abcdd
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Github
+  spec:
+    url: https://github.com/abcde
+    validationRepo: defsa
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: aaaa
+          tokenRef: abcdef
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: abcdef
+    executeOnDelegate: true
+    type: Account
