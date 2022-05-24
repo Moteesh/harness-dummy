@@ -1,0 +1,11 @@
+connector:
+  name: myjira
+  identifier: myjira
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Jira
+  spec:
+    jiraUrl: https://abc.def
+    username: acaet
+    passwordRef: abcdef
