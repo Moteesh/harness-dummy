@@ -1,0 +1,11 @@
+connector:
+  name: abcdet
+  identifier: abcdet
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: SumoLogic
+  spec:
+    url: https://api.us2.sumologic.com/
+    accessIdRef: abcdef
+    accessKeyRef: abcdef
