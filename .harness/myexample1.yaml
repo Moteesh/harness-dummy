@@ -1,0 +1,23 @@
+connector:
+  name: myexample1
+  identifier: myexample1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Bitbucket
+  spec:
+    url: https://bitbucket.org/myaccount1
+    validationRepo: dummyrepo
+    authentication:
+      type: Http
+      spec:
+        type: UsernamePassword
+        spec:
+          username: abcd
+          passwordRef: abcdef
+    apiAccess:
+      type: UsernameToken
+      spec:
+        username: abcd
+        tokenRef: abcdef
+    type: Account
