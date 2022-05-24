@@ -1,0 +1,14 @@
+connector:
+  name: mycustomhealth
+  identifier: mycustomhealth
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: CustomHealth
+  spec:
+    baseURL: https://abcdd.ed/
+    headers:
+    - key: abcd
+      value: aart
+      valueEncrypted: false
+    method: GET
+    validationPath: https://afarataf.aratt/eetad
