@@ -1,0 +1,15 @@
+connector:
+  name: mygit1
+  identifier: mygit1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Git
+  spec:
+    url: https://github.com/abcdefg
+    validationRepo: defa
+    type: Http
+    connectionType: Account
+    spec:
+      username: abcde
+      passwordRef: abcdef
