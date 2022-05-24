@@ -1,0 +1,11 @@
+connector:
+  name: fafag
+  identifier: fafag
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: ServiceNow
+  spec:
+    serviceNowUrl: https://afac.de
+    username: acdag
+    passwordRef: abcdef
