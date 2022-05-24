@@ -1,0 +1,8 @@
+connector:
+  name: afartt
+  identifier: afartt
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Prometheus
+  spec:
+    url: https://aaete.dde/
