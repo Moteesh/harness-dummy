@@ -1,0 +1,9 @@
+connector:
+  name: mydyna1
+  identifier: mydyna1
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Dynatrace
+  spec:
+    url: https://adartta.aae/
+    apiTokenRef: abcdef
