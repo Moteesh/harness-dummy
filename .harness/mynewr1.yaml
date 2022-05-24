@@ -1,0 +1,10 @@
+connector:
+  name: mynewr1
+  identifier: mynewr1
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: NewRelic
+  spec:
+    newRelicAccountId: mafatat
+    url: https://insights-api.newrelic.com/
+    apiKeyRef: abcdef
