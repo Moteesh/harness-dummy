@@ -1,0 +1,13 @@
+connector:
+  name: myappdyn1
+  identifier: myappdyn1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: AppDynamics
+  spec:
+    username: afagarg
+    accountname: fartagag
+    controllerUrl: https://abcde.ded/
+    passwordRef: abcdef
+    authType: UsernamePassword
