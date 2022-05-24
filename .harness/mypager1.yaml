@@ -1,0 +1,9 @@
+connector:
+  name: mypager1
+  identifier: mypager1
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: PagerDuty
+  spec:
+    apiTokenRef: abcdef
