@@ -1,0 +1,11 @@
+connector:
+  name: mydd
+  identifier: mydd
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Datadog
+  spec:
+    url: https://abcd.as
+    applicationKeyRef: abcdef
+    apiKeyRef: abcdef
