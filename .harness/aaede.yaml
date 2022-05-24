@@ -1,0 +1,22 @@
+connector:
+  name: aaede
+  identifier: aaede
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Gitlab
+  spec:
+    url: https://gitlab.com/mygitlabaccount
+    validationRepo: abcd
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: asdwe
+          tokenRef: abcdef
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: abcdef
+    type: Account
