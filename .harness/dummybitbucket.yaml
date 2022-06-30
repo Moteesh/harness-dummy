@@ -1,0 +1,18 @@
+connector:
+  name: dummybitbucket
+  identifier: dummybitbucket
+  description:
+  orgIdentifier: default
+  projectIdentifier: myproject1
+  type: Bitbucket
+  spec:
+    url: https://a.b.com
+    validationRepo: aaaa
+    authentication:
+      type: Http
+      spec:
+        type: UsernamePassword
+        spec:
+          username: aaaa
+          passwordRef: abcdef
+    type: Account
