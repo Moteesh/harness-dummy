@@ -6,7 +6,7 @@ connector:
   projectIdentifier: myproject1
   type: Splunk
   spec:
-    splunkUrl: https://aaett.ed/
+    splunkUrl: https://example.com.aaaa/
     username: arttt
     accountId: zosfA708TlWlaR826YpCTQ
     passwordRef: abcdef
